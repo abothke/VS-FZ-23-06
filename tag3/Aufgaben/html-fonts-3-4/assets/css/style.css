@@ -1,0 +1,10 @@
+.{
+    background-color: #bec5ad;
+}
+h1{
+    size: 10rem;
+    font-family: monospace;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 1px 1px #EC4E20, 2px 2px #FF9505, 3px 3px #016FB9, 4px 4px #F2F3D9, 5px 5px  #7CB518;
+}

@@ -1,0 +1,19 @@
+html{
+    background-color: honeydew;
+}
+
+nav{
+    background-color: lavender;
+    list-style-type: none;
+    padding-left: 50px;
+}
+
+a{
+    color: rgb(200, 0, 240);
+    font-style: bold;
+    font-weight:1000
+}
+
+span{
+    color: brown;
+}

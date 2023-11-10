@@ -1,0 +1,61 @@
+@font-face{
+font-family: 'Poppins';
+src: url('../fonts/Poppins-Regular.ttf');
+font-style: normal;
+}
+
+/* Globale Stile für das HTML-Dokument */
+
+html{
+    font-family:'Poppins';
+    background-color: lavender;
+}
+
+article p:nth-of-type(4){
+    color: aliceblue;
+    background-color: black;
+}
+article p:nth-of-type(odd){
+    color: aliceblue;
+    background-color: gray;
+    cursor:pointer;
+}
+article p:nth-of-type(odd):hover{
+    color: blueviolet;
+    background-color: white;
+}
+article p:nth-of-type(even){
+    color: aliceblue;
+    background-color: purple;
+}
+article p:nth-of-type(even):active{
+    color: goldenrod;
+    background-color: silver;
+}
+
+li:nth-of-type(1){
+    color: red;
+}
+
+li:first-of-type{
+    color: green;
+}
+li:nth-child(1){
+    color: red;
+}
+
+section:nth-of-type(3) h2:nth-of-type(1){
+color: darkslategrey;
+font-size: 100px;
+text-shadow: 10px 15px 5px rgb(255, 0, 0);
+text-decoration: underline;
+}
+
+article:nth-of-type(2) div{
+    width: 100%;
+    min-height: 200px;
+    background-image: url('../shawnanggg-EdUBY912BGE-unsplash.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

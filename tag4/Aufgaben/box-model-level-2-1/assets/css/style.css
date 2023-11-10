@@ -1,0 +1,83 @@
+main {
+
+}
+
+p::first-letter{
+font-size: 30px;
+}
+p:hover::first-letter{
+    font-size: 50px;
+    color: red;
+}
+
+main h1{
+    border: 2px dashed;
+    border-radius: 25px;
+    width: 500px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+main p{
+    border: 2px solid orange;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    color: purple;
+}
+main h2{
+    border: 2px solid white;
+    box-shadow: 0 0 10px #000000;
+    border-radius: 25px;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+main ol li{
+    text-align: left;
+    margin-left: -20px;
+    width: 350px;
+    border-bottom: 2px solid green;
+}
+
+main ul li{
+    text-align: left;
+    margin-left: -20px;
+    width: 350px;
+    border-bottom: 2px solid green;
+}
+
+main ol{
+    border: dotted green;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+main ul{
+    border: dotted green;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+main h3{
+    background: white;;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    padding: 10px;
+    border: solid green;
+    border-radius: 10px;
+    box-shadow: 0 0 0 13px green;
+    outline-style: solid white;
+    outline: 10px solid white;
+}

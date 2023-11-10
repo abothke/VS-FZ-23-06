@@ -1,0 +1,80 @@
+@font-face {
+    font-family:'Cinzel';
+    src: url(../fonts/Cinzel-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:'Lato';
+    src: url(../fonts//Lato-Regular.ttf);
+}
+@font-face {
+    font-family:'Lato';
+    src: url(../fonts//Lato-Thin.ttf);
+    font-weight:100;
+}
+@font-face {
+    font-family:'Lato';
+    src: url(../fonts//Lato-Bold.ttf);
+    font-style: bold;
+    font-weight:700;
+}
+
+@font-face {
+    font-family:'Pacifico';
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family:'Shadows';
+    src: url(../fonts/ShadowsIntoLight-Regular.ttf);
+}
+.cinzel{
+font-family: 'Cinzel';
+}
+.cinzel li:nth-of-type(1){
+font-size:12px;
+}
+.cinzel li:nth-of-type(2){
+font-size:36px;
+}
+.cinzel li:nth-of-type(3){
+font-size:52px;
+}
+
+.lato{
+    font-family: 'Lato';
+}
+
+.lato li:nth-of-type(1){
+font-weight: 100;
+}
+.lato li:nth-of-type(3){
+    font-weight: 700;
+    }
+
+.pacifico{
+    font-family: 'Pacifico';
+}
+.pacifico li:nth-of-type(1){
+    text-shadow: 1px 1px 2px green;
+}
+.pacifico li:nth-of-type(2){
+    text-decoration: underline;
+}
+.pacifico li:nth-of-type(3){
+    text-transform: lowercase;
+}
+.shadows{
+    font-family: 'Shadows';
+}
+
+.shadows li:nth-of-type(1){
+    background-color: green;
+}
+.shadows li:nth-of-type(2){
+    color: green;
+
+}
+.shadows li:nth-of-type(3){
+border: dotted 1px;
+border-color: green;
+}

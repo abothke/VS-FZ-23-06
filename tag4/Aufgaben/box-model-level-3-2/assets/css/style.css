@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Fredericka';
+    src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(..//fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+main section:nth-of-type(1){
+background-image: url(../img/background.jpg);
+color: white;
+height: 900px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+main section a{
+    text-decoration: none;
+    color: white;
+}
+
+main section div a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+main section:first-of-type div a{
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+main section:first-of-type div{
+    width: 1000px;
+    font-weight:100;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    text-align: center;
+}
+
+main section h1{
+font-family: 'Fredericka';
+padding-top: 50px;
+padding-left: 125px;
+font-size: 40px;
+}
+
+main section div h2{
+    font-family: 'Fredericka';
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 250px;
+    }
+
+main section div p{
+    text-align: center;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+main section div a:first-of-type(1){
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px 10px 25px;
+}
+
+main section nav ul{
+    list-style: none;
+    padding-right: 100px;
+    padding-top: 125px;
+}
+
+main section nav ul li{
+    font-size:20px;
+    font-weight: 100;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+main section nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+main section nav ul a:hover{
+    text-decoration: underline 1px;
+}
+
+main section:nth-of-type(2){
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans';
+}
+
+main section:nth-of-type(2) h2{
+        margin-bottom: 50px;
+        font-family: 'Fredericka';
+        font-size: 40px;
+}
+
+main section:nth-of-type(2){
+    margin-top: 50px;
+}
+
+main section:nth-of-type(2) p{
+    width: 525px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+
+main section:nth-of-type(2) div{
+    text-align: center;
+    border: 5px solid black;
+    width: 100px;
+    margin: auto;
+    padding: 25px 50px 25px 50px;
+}
+
+main section:nth-of-type(2) div span{
+display: inline-block;
+padding-top: 25px;
+}
+
+main section:nth-of-type(2) a{
+text-decoration: none;
+color: black;
+border: none;
+font-weight: 700;
+}
+
+main footer{
+    padding-top: 25px;
+    font-weight: 100;
+}
+
+main footer article{
+background-color: #3A3B4A;
+color: white;
+height: 150px;
+padding: 20px;
+}
+
+main footer article p{
+    width: 700px;
+    text-align: left;
+    margin-right: 750px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+main footer article a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px 10px 25px;
+    }
+
+    main footer article a:hover{
+        color: black;
+        background-color: white;
+        }
+
+main footer ul{
+        text-align: center;
+        }
+
+main footer ul li{
+        text-align: center;
+        list-style: none;
+        display: inline-block;
+        padding: 5px 20px 5px 20px;
+        }
+
+main footer ul li a{
+    text-decoration: none;
+    color: black;
+}
