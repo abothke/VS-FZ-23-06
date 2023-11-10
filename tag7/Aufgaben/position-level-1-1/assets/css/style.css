@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../img/andreas-gabler-XEW_Wd4240c-unsplash.jpg);
+  background-size: cover;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  font-size: 10px;
+}
+
+.everest{
+    position: absolute;
+    right: 20%;
+    bottom: 50%;
+    text-align: right;
+    color: white;
+}
+
+.everest h1{
+    text-transform: uppercase;
+    font-size: 8em;
+}
+.everest h2{
+    padding-top: 20px;
+    font-size: 3em;
+}
