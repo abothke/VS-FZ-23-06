@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: aqua;
+}
+
+header nav{
+    text-align: right;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    padding-right: 200px;
+}
+/* 
+header nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 2rem;
+}
+
+section:nth-of-type(1){
+    height: 100vh;
+    background-color: brown;
+    
+}
+section:nth-of-type(2){
+    height: 100vh;
+    background-color: chocolate;
+    
+}
+section:nth-of-type(3){
+    height: 100vh;
+    background-color: lavender;
+    
+} */
+
+section{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+/* section div:nth-child(1){
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 40px;
+    left: 120px;
+}
+
+section div:nth-child(2){
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    position: absolute;
+    bottom: 40px;
+    left: 120px;
+}
+
+section div:nth-child(3){
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+} */
+
+section div:nth-child(1){
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+}
+section div:nth-child(2){
+    height: 60px;
+    width: 60px;
+    background-color: green;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
