@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero{
+    background: url(../img/hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-bottom: -40px;
+}
+
+.hero h2{
+    font-size: 3em;
+    position: relative;
+    left: 30%;
+    top: 40%;
+}
+
+.hero p{
+    font-size: 1.5em;
+    position: relative;
+    left: 23%;
+    top: 50%;
+}
+
+.header-menu{
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.sticky{
+position: sticky;
+}
+
+.header-menu li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.header-menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    position: relative;
+    padding-left: 25px;
+    margin-top: 5px;
+}
+
+.header-menu-items{
+    position: relative;
+    left: 600px;
+    padding: 0px 25px;
+    margin-bottom: 5px;
+}
+
+.content{
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.content li{
+   padding: 15px 30px;
+}
+
+.locations{
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.locations:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+.divider {
+    width: 200px;
+    height: 3px;
+    background-color: black;
+    display: inline-block;
+}
+
+div span{
+    color: red;
+}
+
+.available{
+    color: green;
+}
+
+.tour-dates{
+    position: relative;
+    margin: 0 auto;
+}
+
+.tour-dates h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tour-dates p{
+    left: 100px;
+    position: relative;
+    padding: 10px 0px;
+}
