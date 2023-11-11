@@ -16,11 +16,11 @@ body {
 .modal-popup {
     position: absolute;
     color: white;
-	padding: 20px;
+	padding: 2em;
 	background: #F62B54;
 	border: 1px solid #666;
-	width: 300px;
-    border-radius: 10px;
+	width: 25em;
+    border-radius: 1em;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%); 
@@ -43,9 +43,9 @@ body {
     border: solid 1px white;
     border-radius: 5px;
     position: absolute;
-    top: 125px;
+    top: 10em;
     padding: 5px;
-    left: 68%;
+    left: 32.5em;
     z-index: 1;
 }
 
