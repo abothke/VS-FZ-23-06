@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img:nth-of-type(1){
+display: inline-block;
+height: 400px;
+height: 400px;
+}
+img:nth-of-type(2){
+display: inline-block;
+height: 50%;
+}
+img:nth-of-type(3){
+display: inline-block;
+height: 20em;
+width: 20em;
+}
+img:nth-of-type(4){
+display: inline-block;
+height: 40rem;
+width: 40rem;
+}
+img:nth-of-type(5){
+display: inline-block;
+height: 35vw;
+width: 35vw;
+}
+img:nth-of-type(6){
+display: inline-block;
+height: 75vh;
+width: 75vh;
+}
