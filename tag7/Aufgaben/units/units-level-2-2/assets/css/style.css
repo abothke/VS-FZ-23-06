@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-size: 12vh;
+    line-height: 12vh;
+    text-align: center;
+    position: relative;
+    top: 20vh;
+    background-color: rgba(125, 125, 125, 0.5);
+    color: white;
+    width: 80vw;
+    margin: 0 auto;
+}
+
