@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    height: 80vh;
+    background-color: #D9E8E5;
+}
+
+header{
+    background-color: white;
+    width: 100vw;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 3em;
+}
+
+.navbar a{
+}
+
+.navbar div{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+
+.login{
+}
+
+.menu{
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.logo img{
+    padding-right: 10px;
+}
+
+section{
+    display: flex;
+}
+
+.content{
+    margin: 5em;   
+}
+
+.content h2{
+    font-weight: 200;
+    font-size: 1.25em;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+.content div img{
+    border-radius: 25px;
+    gap: 10px;
+}
+
+.content div a p{
+    color: rgba(0,0,0,0.8);
+}
+
+.ring1{
+    background: url(../img/ring1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 230px;
+    height: 130px;
+}
+.ring2{
+    background: url(../img/ring2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 230px;
+    height: 130px;
+}
+.ring3{
+    background: url(../img/ring3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 230px;
+    height: 130px;
+}
+.ring4{
+    background: url(../img/ring4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 230px;
+    height: 130px;
+}
+.ring5{
+    background: url(../img/ring5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 230px;
+    height: 130px;
+}
+.ring6{
+    background: url(../img/ring6.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 230px;
+    height: 130px;
+}
