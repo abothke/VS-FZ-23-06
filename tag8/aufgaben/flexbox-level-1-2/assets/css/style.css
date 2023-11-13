@@ -1,0 +1,37 @@
+*{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center no-repeat;
+    height: 100vh;
+
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 3em;
+    font-size: 1.5em;
+}
+
+.logo{
+    margin: 3em;
+}
+.navigation{
+    display: flex;
+    gap: 3em;
+    margin: 3em;
+}
+.navigation li{
+    list-style: none;
+}
