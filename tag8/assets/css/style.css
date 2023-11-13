@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Display flex immer auf den Elterncontainer anwenden */
+/* Justify content bezieht sich immer auf die main Axis */
+/* justify-content: center; */
+/* align-items ist immer auf die cross axis */
+
+/* .flex-selection{
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    flex-direction: column;
+} */
+
+/* .flex-selection div{
+    height: 50px;
+    width: 50px;
+}
+.flex-selection div:nth-of-type(1){
+    background-color: blue;
+    order: 2;
+}
+.flex-selection div:nth-of-type(2){
+    align-self: flex-start;
+    background-color: red;
+    order: 1;
+}
+.flex-selection div:nth-of-type(3){
+    order: 3;
+    background-color: greenyellow;
+}
+.flex-selection div:nth-of-type(4){
+    align-self: flex-end;
+    order: 4;
+    background-color: aqua;
+} */
+
+/* main{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+}
+
+main div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+main div:nth-of-type(2){
+flex-grow: 2;
+} */
+
+/* main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    flex-wrap: wrap;
+}
+
+main section{
+    border: 2px solid yellow;
+}
+
+
+main section img{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+} */
+
+/* gap ist wie margin ohne display flex */
+
+/* main ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    justify-content: ;
+}
+
+main ul li{
+    list-style-type: none;
+} */
+
+footer div{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+footer {
+    display: flex;
+    height: 100vh;
+    justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+    align-items: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+}
