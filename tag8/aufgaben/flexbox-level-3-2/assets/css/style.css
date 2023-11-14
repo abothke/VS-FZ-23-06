@@ -54,6 +54,10 @@ header{
     padding-right: 10px;
 }
 
+.menu{
+    padding-right: 35em;
+}
+
 section{
     display: flex;
 }
