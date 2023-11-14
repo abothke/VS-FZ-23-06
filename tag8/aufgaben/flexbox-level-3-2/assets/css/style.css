@@ -36,10 +36,6 @@ header{
     flex-direction: row;
     height: 3em;
 }
-
-.navbar a{
-}
-
 .navbar div{
     display: flex;
     gap: 20px;
@@ -48,12 +44,6 @@ header{
 .navbar ul{
     display: flex;
     gap: 20px;
-}
-
-.login{
-}
-
-.menu{
 }
 
 .logo {
