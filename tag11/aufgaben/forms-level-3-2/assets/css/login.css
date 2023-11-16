@@ -39,17 +39,18 @@ input{
     display: flex;
 }
 
-.login{
+.signup{
     background:#435359;
 }
 
-.login:hover{
+.signup:hover{
     background: #3CB47A;
 }
 
-.signup{
+.login{
     background: #3CB47A;
 }
+
 .login-form{
     display: flex;
     background-color: #1F2B32;
@@ -103,4 +104,10 @@ input[type="submit"]:active{
     background-color: #3CB47A;
     box-shadow: 0 1px #666;
     transform: translateY(4px);
+}
+.pwlost{
+    display: flex;
+    margin: 1em;
+    text-align: right;
+    align-self: flex-end;
 }
