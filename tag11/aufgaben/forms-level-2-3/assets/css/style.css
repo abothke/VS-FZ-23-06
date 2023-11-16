@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-section{
-    display: flex;
-    flex-direction: column;
+
+fieldset{
+    margin: 5px;
 }
 
 div{
@@ -19,6 +19,10 @@ form{
 
 select{
     width: 10vw;
+}
+
+input{
+    width: 150;
 }
 .register-form{
     margin: 20px;
