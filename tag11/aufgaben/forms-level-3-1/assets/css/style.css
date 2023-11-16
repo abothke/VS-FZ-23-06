@@ -1,1 +1,129 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+}
+
+h3{
+    margin: 20px;
+    font-size: 2em;
+    color: #2A88AD;
+}
+
+h2{
+    text-align: left;
+    padding-top: 0.5em;
+    margin-left: 20px;
+    color: white;
+}
+
+p{
+    color: white;
+    margin-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="submit"]{
+    background: #2A88AD;
+    color: white;
+    border: none;
+    padding: 0px 5px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+    background: #2EBC99;
+}
+
+input{
+    border-radius: 10px;
+    border: solid white 1px;
+    box-shadow:  inset rgba(0, 0, 0, 0.35) 0px 1px 1px;
+}
+
+textarea{
+    border-radius: 10px;
+    height: 50px;
+}
+
+.header{
+    background: #2A88AD;
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+
+}
+
+[class^="contact-"]{
+    display: flex;
+    margin: 10px 20px;
+    background-color: #F8F8F8;
+    border-radius: 15px;
+}
+
+[class^="contact-"] input{
+    height: 30px;
+}
+
+.desc{
+    margin: 20px;
+}
+
+
+.footer{
+    margin: 20px;
+}
+
+.submit{
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.tos{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
