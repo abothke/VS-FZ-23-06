@@ -1,1 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
 
+div{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+form{
+    display: flex;
+}
+
+select{
+    width: 10vw;
+}
+.register-form{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.name, .wm, .surname, .email, .text, .gender, .pic, .country, .country, .activity, .langs, .languages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 45vw;
+    align-self: flex-start;
+}
+
+.wm{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pic{
+    flex-wrap: nowrap;
+
+}
+
+.gender{
+    flex-wrap: nowrap;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+}

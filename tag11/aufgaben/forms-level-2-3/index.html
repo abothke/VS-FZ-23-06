@@ -3,9 +3,70 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<title>forms-level-2-3</title>
 </head>
 <body>
+	<fieldset>
+		<legend>Register form</legend>
+		<form>
+		<div class="register-form">
+			<div class="name">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="" placeholder="Name">
+			</div>
+				<div class="surname">
+					<label for="surname">Surname</label>
+					<input type="text" name="surname" id="" placeholder="Surname">
+				</div>
+				<div class="email">
+					<label for="email">Email</label>
+					<input type="text" name="email" id="" placeholder="Email">
 	
+				</div>
+			<div class="gender">
+				<label>Gender</label>
+				<div class="wm">
+					<label>Male <input type="radio" name="sex" value="male"></label>
+					<label>Female <input type="radio" name="sex" value="female"></label>
+				</div>
+			</div>
+			<div class="pic">
+			<label for="pic">Picture</label>
+			<input type="file" name="pic" id="">
+			</div>
+			<div class="country">
+		<label for="country">Country</label>
+		<select name="country" id="">
+		<option value="de">Germany</option>
+		</select>
+			</div>
+			<div class="languages">
+				<label for="lang">Preferred languages</label>
+			<select name="lang" id="" multiple>
+			<option value="html">HTML</option>
+			<option value="css">css</option>
+			<option value="js">JS</option>
+			<option value="react">React</option>
+		</select>
+			</div>
+			<div class="activity">
+				<label for="activity">Field of activity</label>
+				<label for="it">IT</label>
+				<input type="checkbox" name="it" id="" value="">
+				<label for="design">Design</label>
+				<input type="checkbox" name="design" id="">
+				<label for="design">Design</label>
+				<input type="checkbox" name="
+				other" id="">
+				<label for="other">Other</label>
+			</div>
+	<div class="buttons">
+		<input type="submit" value="Send">
+		<input type="button" value="Cancel">
+	</div>
+	</form>
+</div>
+	</fieldset>
 </body>
 </html>
