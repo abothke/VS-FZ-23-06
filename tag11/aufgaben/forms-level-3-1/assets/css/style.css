@@ -48,10 +48,6 @@ input[type="submit"]{
     border-radius: 5px;
 }
 
-input[type="submit"]:hover{
-    background: #2EBC99;
-}
-
 input{
     border-radius: 10px;
     border: solid white 1px;
