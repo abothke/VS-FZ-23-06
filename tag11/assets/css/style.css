@@ -1,0 +1,83 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 62.2%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 5vh 10vw;
+}
+
+fieldset{
+    border: 1px solid #000000;
+    background-color: rgba(62, 153, 185, 0.142);
+    padding: 20px 30px ;
+    max-width: 550px;
+}
+legend {
+    font-size: 3rem;
+    padding: 0 5px;
+}
+
+section{
+    margin: 20px 0;
+}
+
+::placeholder{
+    color: blueviolet;
+    opacity: 1;
+}
+/* INPUT & RADIO */
+label{
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+input{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+.text, .nummer, .telefon, .mail, .login{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-child(8), section:nth-child(9){
+    background-color: white;
+    padding: 10px;
+}
+
+/* RANGE */
+
+input[type="range"]{
+    margin-top: 10px;
+    cursor: pointer;
+    width: 22rem;
+    /* appearance: none;
+    background-color: aquamarine; */
+}
+
+/* TEXTAREA & FILE */
+
+textarea{
+    background: url(../Kermit.jpg) center/contain no-repeat;
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+/* SUBMIT / BUTTON */
+
+input[type="button"], input[type="submit"]{
+    border: none;
+    padding: 1rem 3rem;
+    background: deeppink;
+    color: white;
+}
