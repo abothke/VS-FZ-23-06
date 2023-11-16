@@ -98,6 +98,9 @@ section{
     border-radius: 5px;
     width: 230px;
     height: 130px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .ring2{
     background: url(../img/ring2.png);
@@ -107,6 +110,9 @@ section{
     border-radius: 5px;
     width: 230px;
     height: 130px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .ring3{
     background: url(../img/ring3.png);
@@ -116,6 +122,9 @@ section{
     border-radius: 5px;
     width: 230px;
     height: 130px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .ring4{
     background: url(../img/ring4.png);
@@ -125,6 +134,9 @@ section{
     border-radius: 5px;
     width: 230px;
     height: 130px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .ring5{
     background: url(../img/ring5.png);
@@ -134,6 +146,9 @@ section{
     border-radius: 5px;
     width: 230px;
     height: 130px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .ring6{
     background: url(../img/ring6.png);
@@ -143,4 +158,7 @@ section{
     border-radius: 5px;
     width: 230px;
     height: 130px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Tag 8 Forms</title>
+</head>
+<body>
+<form>
+<fieldset>
+<legend>Label & Input</legend>
+
+<!-- INPUT -->
+<section class="text">
+  <label for="text">Gib hier einen Text ein:</label>
+  <input type="text" name="" id="" placeholder="Text">
+</section>
+
+<section class="nummer">
+  <label for="nummer">Gib eine Nummer ein:</label>
+  <input type="number" name="" id="" placeholder="Eine Nummer">
+</section>
+
+<section class="telefon">
+  <label for="telefon">Gib deine Telefonnummer ein:</label>
+<input type="tel" name="" id="" disabled placeholder="Telefonnummer">
+</section>
+
+<section class="mail">
+  <label for="mail">Meine Mail</label>
+  <input type="email" name="" id="" placeholder="E-Mail" required>
+</section>
+
+<section class="login">
+  <label for="login">Passwort:</label>
+  <input type="password" name="" id="" placeholder="Min. 8 Zeichen">
+</section>
+
+<!-- RADIO -->
+<section>
+  <div>
+    <input type="radio" name="auswahl" id="">
+    <label for="radioJa">Ja</label>
+  </div>
+  <div>
+    <input type="radio" name="auswahl" id="">
+    <label for="radioNein">Nein</label>
+  </div>
+  <div>
+    <input type="radio" name="auswahl" id="">
+    <label for="radioVielleicht">Vielleicht</label>
+  </div>
+</section>
+
+<!-- CHECKBOC & SELECT -->
+<section>
+  <h2>Ich packe meinen Koffer ...</h2>
+  <div>
+    <label for="checkboxHose">Hose</label>
+    <input type="checkbox" name="" id="checkboxHose">
+  </div>
+
+  <div>
+    <label for="checkboxShirt">Shirt</label>
+    <input type="checkbox" name="" id="checkboxShirt">
+  </div>
+
+  <div>
+    <label for="checkboxSchuhe">Schuhe</label>
+    <input type="checkbox" name="" id="checkboxSchuhe">
+  </div>
+
+  <div>
+    <label for="checkboxEssen">Essen</label>
+    <input type="checkbox" name="" id="checkboxEssen">
+  </div>
+
+  <div>
+    <label for="checkboxTrinken">Trinken</label>
+    <input type="checkbox" name="" id="checkboxTrinken">
+  </div>
+
+  <section>
+    <h2>Meine Reiseziele</h2>
+    <select name="" id="" aria-placeholder="">
+      <option value="">Wähle aus...</option>
+      <option value="de">Deutschland</option>
+      <option value="hr">Kroatien</option>
+      <option value="lk">Sri Lanka</option>
+      <option value="mg">Madagaskar</option>
+      <option value="mx">Mexiko</option>
+      <option value="br">Brasilien</option>
+    </select>
+  </section>
+  <!-- DATE -->
+  <section>
+    <div>
+    <label for="DATE">Datum</label>
+    <input type="date" name="" id="date">
+    </div>
+  </section>
+</section>
+</fieldset>
+</form>
+</body>
+</html>
