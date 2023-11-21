@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Merriweather&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(233, 233, 224, 1);
+    font-family: "Cormorant Garamond";
+}
+
+a{
+    text-decoration: none;
+    color: #737B80;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h1 span{
+    font-size: 30px;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(5,20fr);
+    grid-template-rows: repeat(5,20fr);
+    width: 1200px;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-around;
+    width: 100vw;
+    height: 10vh;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+
+main{
+    grid-column: 1 / 5;
+    grid-row: 2 / 6;
+}
+
+aside{
+    grid-column: 5 / 6;
+    grid-row: 2 / 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+aside div{
+    border: 5px solid #333;
+    padding: 25px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+aside p{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+aside h2{
+    font-size: 50px;
+}
+
+aside div h3{
+    font-size: 24px;
+}
+
+main section{
+    display: grid;
+    grid-template-columns: repeat(4, 25fr);
+    grid-template-rows: repeat(5, 20fr);
+    gap: 20px;
+}
+
+main section article:nth-of-type(1){
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+main section article:nth-of-type(2){
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+main section article:nth-of-type(3){
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+main section article:nth-of-type(4){
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
+
+main section article:nth-of-type(5){
+    grid-column: 1 / 2;
+    grid-row: 4 / 6;
+}
+
+main section article:nth-of-type(6){
+    grid-column: 2 / 3;
+    grid-row: 4 / 6;
+}
+
+main section span{
+    grid-column: 3 / 6;
+    grid-row: 1 / 5;
+    object-fit: cover;
+    width: 470px;
+    height: 586px;
+}
+
+main h2{
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 35px;
+}
+
+span{
+    font-style: italic;
+}
