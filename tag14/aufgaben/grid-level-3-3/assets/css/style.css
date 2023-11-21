@@ -20,6 +20,7 @@ h1 span{
     font-size: 30px;
 }
 body{
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5,20fr);
     grid-template-rows: repeat(5,20fr);
