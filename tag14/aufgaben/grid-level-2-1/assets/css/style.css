@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+div{
+    height: 100%;
+    width: 100%;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    margin: 5px;
+    gap: 5px;
+}
+
+[class^='img']{
+    
+}
+
+.img1 a, .img2 a, .img3 a{
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    z-index: -1;
+}
+
+.img4 a, .img5 a, .img6 a{
+    position: absolute;
+    text-align: center;
+    top: 700px;
+    z-index: -1;
+}
+
+.img7 a, .img8 a, .img9 a{
+    position: absolute;
+    text-align: center;
+    top: 1005px;
+    z-index: -1;
+}
+
+[class^='img']{
+    display: flex;
+    justify-content: center;
+}
+
+.img1:hover a, .img2:hover a, .img3:hover a {
+    top: 100px;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.img4:hover a, .img5:hover a, .img6:hover:hover a {
+    top: 410px;
+    z-index: 1;
+    transition: background .5s ease-out;
+    transition: 0.5s;
+}
+
+.img7:hover a, .img8:hover a, .img9:hover a {
+    top: 715px;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+
+
+.img1{
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(https://picsum.photos/300?1);
+}
+
+.img1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://picsum.photos/300?1);
+}
+
+.img2{
+    grid-column: 2 / 3;
+    grid-row: 
+    1 / 2;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(https://picsum.photos/300?2);
+}
+
+.img2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://picsum.photos/300?2);
+}
+
+.img3{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(https://picsum.photos/300?3);
+}
+
+.img3:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://picsum.photos/300?3);
+}
+
+.img4{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(https://picsum.photos/300?4);
+}
+
+.img4:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://picsum.photos/300?4);
+}
+
+.img5{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(https://picsum.photos/300?5);
+}
+
+.img5:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://picsum.photos/300?5);
+}
+
+.img6{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(https://picsum.photos/300?6);
+}
+
+.img6:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://picsum.photos/300?6);
+}
+
+.img7{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(https://picsum.photos/300?7);
+}
+
+.img7:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://picsum.photos/300?7);
+}
+
+.img8{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(https://picsum.photos/300?8);
+}
+
+.img8:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://picsum.photos/300?8);
+}
+
+.img9{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(https://picsum.photos/300?9);
+}
+
+.img9:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://picsum.photos/300?9);
+}
