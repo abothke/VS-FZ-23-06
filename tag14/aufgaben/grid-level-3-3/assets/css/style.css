@@ -24,7 +24,7 @@ body{
     display: grid;
     grid-template-columns: repeat(5,20fr);
     grid-template-rows: repeat(5,20fr);
-    width: 1200px;
+    width: 98vw;
     height: 100vh;
 }
 
@@ -41,7 +41,7 @@ header div{
     align-items: center;
     align-content: space-between;
     justify-content: space-around;
-    width: 1200px;
+    width: 100vw;
     height: 10vh;
     border-bottom: 5px solid black;
     border-top: 5px solid black;
