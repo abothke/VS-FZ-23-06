@@ -3,6 +3,7 @@
     src: url(../fonts/Karla-VariableFont_wght.ttf);
 }
 
+/* Font-Family auf Karla gesetzt, da die Font immer die selbe bleibt */
 *{
     margin: 0;
     padding: 0;
@@ -10,13 +11,14 @@
     font-family: 'Karla';
 }
 
+/* Definition der einzelnen Farben */
 :root{
     --white: rgba(243, 243, 243, 1);
     --black: rgba(0, 0, 0, 1);
     --main: rgba(132, 132, 132, 1);
     --accent: rgba(50, 58, 69, 1);
 }
-
+/* Allgemeine Stylings ohne Klassen */
 body{
     margin: 0 auto;
 }
@@ -25,6 +27,7 @@ a{
     text-decoration: none;
     color: var(--black);
 }
+
 
 header{
     display: flex;
@@ -57,6 +60,11 @@ footer{
     font-size: 12px;
 }
 
+footer a{
+    font-size: 10px;
+    color: var(--accent);
+}
+
 footer h2{
     font-size: 13px;
 }
@@ -64,28 +72,31 @@ footer h2{
 footer span{
     font-weight: 700;
 }
+/* Ab hier fangen die Stylings der Klassen an, generelle Styling sind am Anfang der .css */
+/* die Seite in ein div gesetzt, um das padding um die Seite zu stylen */
 .page{
     padding: 50px;
 }
-[class^="hero-product"] img{
+
+/* Weite für das img der Hero-Produkte gesetzt. Vorher mit einem Universalselektor, welche jede Klasse anspricht ,die mit "hero-product" anfängt. War jedoch überflüssig, da ich background-url in img-tags ageändert habe. (^) */
+.hero-product img{
     width: 100%;
 }
 
+/* allgemeines Styling für den Produktnamen verwendet, da dieses bei jedem Produkt gleich ist */
 .product-name{
     font-size: 15px;
     font-weight: 400;
 }
 
+/* Ebenfalls allgemeins Styling für den Produktnamen, der Seitenweit gleich ist */
 .brand-name{
     font-size: 15px;
     color: var(--main);
     font-weight: 400;
 }
 
-.price{
-    font-weight: 400;
-}
-
+/* styling für den Text unter dem Bild der großen, Hero-Produkte */
 .hero-desc{
     display: flex;
     flex-direction: row;
@@ -93,36 +104,35 @@ footer span{
     padding: 20px 0px;
 }
 
+/* Styling für den übergeordneten Container für Produktnamen, Marke und Preis */
 .info-container{
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
+/* Übercontainer für das 2x3 Grid der Produktgallery */
 .prod-gallery{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
 }
-
-.prod-gallery-footer{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 1fr;
-    gap: 20px;
-}
-
+/* Breite für das img in der Produkt-Galerie gesetzt */
 .gallery-product img{
     width: 100%;
 }
 
+/* das selbe wie .hero-desc nur für die Produkte in der Galerie/im Grid */
 .product-desc{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 0px;
 }
+
+/* Grid mit Produkten wiederholt sich, daher in einer Zeile jeweils
+das erste, zweite, dritte, vierte, fünfte und sechste Produkt angesprochen zur Anordnung */
 
 .prod-1, .prod-7, .prod-13, .prod-19, .prod-25{
     grid-row: 1 / 2;
@@ -154,6 +164,16 @@ footer span{
     grid-column: 3 / 4;
 }
 
+/* Angepasster Container für die letzte Galerie nahe am Footer. Diese beinhaltet nur 1x3 statt 2x3 Produkte */
+.prod-gallery-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+/* Klasse für den ersten Teil des Footers, welcher doppelt so breit ist als die anderen */
+
 .branding{
     grid-row: 1 / 2;
     grid-column: 1 / 3;
@@ -161,12 +181,13 @@ footer span{
     flex-direction: column;
     justify-content: space-between;
 }
-
+/* Innerhalb von Branding einen Container gestyled, der das Copyright-Feld setzt */
 .copyright{
     font-size: 10px;
     color: var(--main);
 }
 
+/* Container inkl. Anordnung im Footer für die Spalte Contact */
 .contact{
     grid-row: 1 / 2;
     grid-column: 3 / 4;
@@ -176,6 +197,7 @@ footer span{
     gap: 45px;
 }
 
+/* Container inkl. Anordnung im Footer für die Spalte Newsletter */
 .newsletter{
     grid-row: 1 / 2;
     grid-column: 4 / 5;
@@ -184,28 +206,22 @@ footer span{
     justify-content: flex-start;
     gap: 45px;
 }
-
+/* Spezielles Styling für den span, wie in Figma */
 .newsletter span{
     font-weight: 400;
     font-style: italic;
 }
-
+/* Spezielles Styling für den a-tag, wie in Figma */
 .newsletter a{
     color: var(--accent);
         font-size: 12px;
 }
-
+/* Für das abweichende Style im Footer-Newsletter für das Wort "subscribe" */
 .newsletter p span{
     font-weight: 700;
     font-style: normal;
 }
-
-.newsletter div{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
+/* Container inkl. Anordnung im Footer für die Spalte "Find Us here" */
 .find-us{
     grid-row: 1 / 2;
     grid-column: 5 / 6;
@@ -213,9 +229,4 @@ footer span{
     flex-direction: column;
     justify-content: flex-start;
     gap: 45px;
-}
-
-footer a{
-    font-size: 10px;
-    color: var(--accent);
 }
