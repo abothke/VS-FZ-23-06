@@ -18,7 +18,6 @@
 }
 
 body{
-    width: 1440px;
     margin: 0 auto;
 }
 
@@ -33,6 +32,10 @@ header{
     margin: 20px;
 }
 
+header a{
+    color: var(--accent);
+}
+
 nav ul{
     display: flex;
     gap: 30px;
@@ -40,11 +43,13 @@ nav ul{
 
 li{
     list-style: none;
+    font-weight: 700;
+    color: var(--accent);
 }
 
 footer{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
     gap: 50px;
     padding-top: 50px;
@@ -59,7 +64,9 @@ footer h2{
 footer span{
     font-weight: 700;
 }
-
+.page{
+    padding: 50px;
+}
 [class^="hero-product"] img{
     width: 100%;
 }
@@ -72,6 +79,10 @@ footer span{
 .brand-name{
     font-size: 15px;
     color: var(--main);
+    font-weight: 400;
+}
+
+.price{
     font-weight: 400;
 }
 
@@ -145,7 +156,7 @@ footer span{
 
 .branding{
     grid-row: 1 / 2;
-    grid-column: 1 / 2;
+    grid-column: 1 / 3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -158,7 +169,7 @@ footer span{
 
 .contact{
     grid-row: 1 / 2;
-    grid-column: 2 / 3;
+    grid-column: 3 / 4;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -167,7 +178,7 @@ footer span{
 
 .newsletter{
     grid-row: 1 / 2;
-    grid-column: 3 / 4;
+    grid-column: 4 / 5;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -193,15 +204,17 @@ footer span{
     flex-direction: column;
     gap: 5px;
 }
+
 .find-us{
     grid-row: 1 / 2;
-    grid-column: 4 / 5;
+    grid-column: 5 / 6;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 45px;
 }
 
-.find-us a{
+footer a{
     font-size: 10px;
+    color: var(--accent);
 }
