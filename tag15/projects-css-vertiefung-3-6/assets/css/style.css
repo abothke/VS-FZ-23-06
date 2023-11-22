@@ -192,6 +192,7 @@ footer span{
 
 .newsletter a{
     color: var(--accent);
+        font-size: 12px;
 }
 
 .newsletter p span{
