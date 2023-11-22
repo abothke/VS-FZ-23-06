@@ -29,11 +29,22 @@ a{
     color: var(--black);
 }
 
-
+/* Header sticky gemacht inkl. Anordnung und paddings/margins*/
 header{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 20vh;
+    margin: 0 auto;
+    padding-left: 30px;
+    background-color: white;
+    align-items: center;
+}
+
+header h1{
+    margin-left: 20px;
 }
 
 header a{
@@ -43,6 +54,7 @@ header a{
 nav ul{
     display: flex;
     gap: 30px;
+    margin-right: 65px;
 }
 
 li{
