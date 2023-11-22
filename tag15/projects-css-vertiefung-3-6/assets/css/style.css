@@ -18,6 +18,7 @@
     --main: rgba(132, 132, 132, 1);
     --accent: rgba(50, 58, 69, 1);
 }
+
 /* Allgemeine Stylings ohne Klassen */
 body{
     margin: 0 auto;
@@ -72,6 +73,16 @@ footer h2{
 footer span{
     font-weight: 700;
 }
+/* Transition vergeben um die Animation auch rückwärts zu gestalten */
+img{
+    transition: 0.25s;
+}
+/* Animation beim Hovern */
+img:hover{
+    opacity: 0.6;
+    transition: 0.25s;
+}
+
 /* Ab hier fangen die Stylings der Klassen an, generelle Styling sind am Anfang der .css */
 /* die Seite in ein div gesetzt, um das padding um die Seite zu stylen */
 .page{
