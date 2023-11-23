@@ -1,3 +1,4 @@
+/* Fonts eingebunden */
 @font-face {
     font-family: 'Santio';
     src: url(../fonts/Santio\ regular.ttf);
@@ -17,14 +18,22 @@
     font-family: 'Mr Dafoe';
     src: url(../fonts/MrDafoe-Regular.ttf);
 }
-
+/* Farben eingebunden */
 :root{
     --accent-yellow: rgba(231, 188, 14, 1);
     --accent-turq: rgba(107, 193, 163, 1);
     --accent-lblue: rgba(126, 184, 225, 1);
     --accent-ppink: rgba(203, 145, 182, 1);
 }
+/* Übergreifendes Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Generelles Styling ohne Klassen */
+/* Typographie */
 h2{
     font-size: 66px;
     color: white;
@@ -33,20 +42,14 @@ h2{
 p{
     font-size: 32px;
 }
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Links */
 a{
     font-family: 'Roboto';
     text-decoration: none;
     color: white;
     border-bottom: 1px solid var(--accent-yellow);
 }
-
+/* Header */
 header{
     display: flex;
     justify-content: flex-end;
@@ -58,16 +61,16 @@ header img{
     width: 20px;
     height: 20px;
 }
-
+/* Main */
 main{
     background: url(../img/cleo-topper.jpg) center no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 900vh;
+    height: 925vh;
     font-family: 'Santio';
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
 }
-
+/* Footer */
 footer{
     text-align: center;
     background-color: black;
@@ -83,6 +86,12 @@ footer a{
     color: var(--accent-turq);
 }
 
+footer a{
+    border-bottom: none;
+}
+
+/* Styling anhand von Klassen */
+/* Container für die Überschrift und ersten Text */
 .main-text{
     display: flex;
     flex-wrap: wrap;
@@ -94,8 +103,9 @@ footer a{
 .heading{
     width: 5vw;
     margin-bottom: 100px;
+    font-family: 'Inter';
 }
-
+/* "Scroll to learn more"-Styling */
 .action a{
     display: flex;
     flex-direction: row;
@@ -116,7 +126,7 @@ footer a{
 .action{
     padding-bottom: 180px;
 }
-
+/* erster großer Textblock "AN INDIGENOUS..." */
 .secondary-text{
     width: 500px;
     color: var(--accent-turq);
@@ -132,19 +142,20 @@ footer a{
 .secondary-text p{
     font-size: 36px;
 }
-
+/* Info-Boxen/Container mit Statistiken */
+/* Größe des SVG/Icon */
 .stat-img{
     height: 105px;
     width: 105px;
 }
-
+/* Generelle Stylings der Infoboxen, die sich wiederholen */
 .info-1, .info-2, .info-3{
     margin: 250px;
     color: var(--accent-yellow);
     font-weight: 700;
     font-size: 42px;
 }
-
+/* erste Infobox "Domestic workers" */
 .info-1 h2{
     font-size: 140px;
     width: 200px;
@@ -158,7 +169,7 @@ footer a{
     color: white;
     background: rgba(0, 0, 0, 0.5);
 }
-
+/* Zweite Infobox "Stundenlohn" */
 .info-2{
     color: var(--accent-ppink);
     font-size: 52;
@@ -180,7 +191,7 @@ footer a{
     color: var(--accent-ppink-a);
     font-size: 95px;
 }
-
+/* Dritte Infobox "Health insurance" */
 .info-3{
     width: 100px;
     color: var(--accent-turq);
@@ -198,7 +209,7 @@ footer a{
 .insurance{
     font-size: 110px;
 }
-
+/* Infobox-Abschlusstext  */
 .info-4{
     width: 490px;
     color: var(--accent-lblue);
@@ -217,7 +228,7 @@ footer a{
     color: white;
     background: rgba(0, 0, 0, 0.5);
 }
-
+/* "Divider" zwischen Content und Call-to-action/Donation */
 .divider{
     background: url(../img/see.png) center/cover no-repeat;
     margin: -20px;
@@ -226,7 +237,7 @@ footer a{
 .divider img{
     width: 100%
 }
-
+/* Container Call-to-action/Donation */
 .cta{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -234,7 +245,7 @@ footer a{
     background-color: black;
     height: 750px;
 }
-
+/* CTA Text "YOU CAN HELP IMPROVE..." */
 .cta p{
     margin: 125px 75px;
     grid-column: 1 / 2;
@@ -246,7 +257,7 @@ footer a{
     margin-bottom: 30px;
     font-weight: 700;
 }
-
+/* Donate Button */
 .button {
     background: #000000;
     padding: 0.5em 0.5em;
