@@ -231,7 +231,7 @@ footer a{
 /* "Divider" zwischen Content und Call-to-action/Donation */
 .divider{
     background: url(../img/see.png) center/cover no-repeat;
-    margin: -20px;
+    margin-bottom: -20px;
 }
 
 .divider img{
