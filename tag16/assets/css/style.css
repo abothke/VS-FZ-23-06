@@ -106,7 +106,16 @@ footer a{
     font-family: 'Inter';
 }
 /* "Scroll to learn more"-Styling */
-.action a{
+.action{
+    padding-bottom: 180px;
+}
+
+.action-text div{
+    padding-top: 20px;
+    font-family: 'Roboto';
+}
+
+.action-text{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -116,15 +125,6 @@ footer a{
     font-family: 'Mr Dafoe';
     letter-spacing: -2px;
     color: var(--accent-yellow);
-}
-
-.action div{
-    padding-top: 20px;
-    font-family: 'Roboto';
-}
-
-.action{
-    padding-bottom: 180px;
 }
 /* erster großer Textblock "AN INDIGENOUS..." */
 .secondary-text{
