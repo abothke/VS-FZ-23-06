@@ -67,7 +67,7 @@ main{
     background: url(../img/cleo-topper.jpg) center no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 4500px;
+    height: 4600px;
     font-family: 'Santio';
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
 }
