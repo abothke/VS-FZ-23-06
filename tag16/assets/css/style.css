@@ -274,3 +274,7 @@ footer a{
     margin-bottom: 200px;
     font-family: 'Roboto';
 }
+
+.button:hover{
+    box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.75);
+}
