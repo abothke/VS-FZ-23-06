@@ -173,8 +173,7 @@ footer a{
 /* Zweite Infobox "Stundenlohn" */
 .info-2{
     color: var(--accent-ppink);
-    font-size: 52;
-    width: 54;
+    font-size: 52px;
 }
 
 .info-2 h2{

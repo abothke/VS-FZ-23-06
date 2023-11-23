@@ -1,7 +1,7 @@
-@media screen and (max-width:480px) {
+@media screen and (min-width) {
 
     html{
-        width: 375px;
+        width: 100vw;
     }
     main{
         height: 5000px;
