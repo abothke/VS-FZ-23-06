@@ -1,0 +1,41 @@
+@media screen and (max-width:480px) {
+
+    main{
+        height: 5000px;
+    }
+
+    .main-text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 20dvh;
+    }
+
+    .secondary-text{
+        width: 350px;
+        margin: auto 0;
+    }
+
+    .info-1, .info-2, .info-3, .info-4{
+        margin: 25px 25px;
+    }
+
+    .info-1 p{
+        width: 350px;
+    }
+    .info-4{
+        padding-top: 50px;
+        width: 90vw;
+    }
+
+    .divider{
+        padding-top: 200px;
+        margin-bottom: 0px;
+    }
+
+    footer{
+        z-index: 1;
+    }
+
+
+}

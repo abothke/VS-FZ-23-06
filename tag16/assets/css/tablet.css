@@ -1,0 +1,19 @@
+@media screen and (max-width:768px) {
+
+    main{
+        height: 5000px;
+    }
+
+    .main-text{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 20dvh;
+    }
+
+    .info-4{
+        height: 600px;
+    }
+
+
+}
