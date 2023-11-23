@@ -97,7 +97,7 @@ footer a{
     flex-wrap: wrap;
     flex-direction: column;
     width: 20dvh;
-    margin: 100px;
+    margin: 10vh 10vw;
 }
 
 .heading{
@@ -132,6 +132,7 @@ footer a{
     color: var(--accent-turq);
     font-weight: 700;
     line-height: 50px;
+    margin-left: 7.5vw;
 }
 
 .secondary-text span{
@@ -150,7 +151,7 @@ footer a{
 }
 /* Generelle Stylings der Infoboxen, die sich wiederholen */
 .info-1, .info-2, .info-3{
-    margin: 250px;
+    margin: 250px 35vw;
     color: var(--accent-yellow);
     font-weight: 700;
     font-size: 42px;
@@ -211,12 +212,11 @@ footer a{
 }
 /* Infobox-Abschlusstext  */
 .info-4{
-    width: 490px;
+    width: 38vw;
     color: var(--accent-lblue);
     font-weight: 700;
     line-height: 50px;
-    margin: 300px;
-    margin: 400px 300px;
+    margin: 400px 36.5vw;
     height: 250px;
 }
 
