@@ -63,9 +63,24 @@ main{
     background: url(../img/cleo-topper.jpg) center no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 400vh;
+    height: 850vh;
     font-family: 'Santio';
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+footer p{
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+footer a{
+    color: var(--accent-turq);
 }
 
 .main-text{
@@ -119,13 +134,124 @@ main{
     width: 105px;
 }
 
-.info-1{
+.info-1, .info-2, .info-3{
     margin: 250px;
     color: var(--accent-yellow);
+    font-weight: 700;
+    font-size: 42px;
 }
 
 .info-1 h2{
     font-size: 140px;
     width: 200px;
     color: var(--accent-yellow);
+    font-weight: 700;
+}
+.info-1 p{
+    width: 450px;
+}
+.info-1 p span:first-of-type{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.info-2{
+    color: var(--accent-ppink);
+    font-size: 52;
+    width: 54;
+}
+
+.info-2 h2{
+    font-size: 140px;
+    width: 200px;
+    color: var(--accent-yellow);
+    font-weight: 700;
+}
+.info-2 p span:first-of-type{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.wage{
+    color: var(--accent-ppink-a);
+    font-size: 95px;
+}
+
+.info-3{
+    width: 100px;
+    color: var(--accent-turq);
+}
+
+.info-3 p{
+    width: 400px;
+}
+
+.info-3 p span:first-of-type{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.insurance{
+    font-size: 110px;
+}
+
+.info-4{
+    width: 575px;
+    font-size: 35px;
+    color: var(--accent-lblue);
+    font-weight: 700;
+    line-height: 50px;
+    margin: 300px;
+    height: 250px;
+}
+
+.info-4 p span:first-of-type{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.divider{
+    background: url(../img/see.png) center/cover no-repeat;
+    margin: -20px;
+}
+
+.divider img{
+    width: 100%
+}
+
+.cta{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    background-color: black;
+    height: 750px;
+}
+
+.cta p{
+    margin: 125px 75px;
+    grid-column: 1 / 2;
+    grid-row:  1 / 2;
+    color: white;
+    font-size: 48px;
+    width: 350px;
+    font-family: 'Inter';
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.button {
+    background: #000000;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    line-height: 25px;
+    font-size: 24px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    height: 50px;
+    width: 100px;
+    margin-left: 75px;
+    margin-bottom: 200px;
+    font-family: 'Roboto';
 }
