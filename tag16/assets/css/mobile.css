@@ -15,11 +15,12 @@
         flex-direction: column;
         width: 20dvh;
         color: red;
+        margin: 0px 0px;
     }
 
     .info-1, .info-2, .info-3, .info-4{
         margin: 0px 0px;
-        padding: 50px;
+        padding: 50px 25px;
     }
 
     .info-1 p, .info-2 p, .info-3 p, .info-4 p{
@@ -36,15 +37,16 @@
 
     .info-4{
         height: 1400px;
-        width: 350px;
+        width: 300px;
         margin: 0px 0px;
     }
 
     .cta p{
         width: 250px;
         font-size: 32px;
+        margin: 125px 50px;
     }
 .cta{
-    height: 500px;
+    height: 600px;
 }
 }
