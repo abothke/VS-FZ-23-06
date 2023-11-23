@@ -96,7 +96,6 @@ footer a{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 20dvh;
     margin: 10vh 10vw;
 }
 
