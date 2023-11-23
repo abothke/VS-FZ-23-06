@@ -63,7 +63,7 @@ main{
     background: url(../img/cleo-topper.jpg) center no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 850vh;
+    height: 900vh;
     font-family: 'Santio';
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
 }
@@ -104,6 +104,7 @@ footer a{
     gap: 10px;
     border-bottom: 0;
     font-family: 'Mr Dafoe';
+    letter-spacing: -2px;
     color: var(--accent-yellow);
 }
 
@@ -117,8 +118,7 @@ footer a{
 }
 
 .secondary-text{
-    width: 575px;
-    font-size: 35px;
+    width: 500px;
     color: var(--accent-turq);
     font-weight: 700;
     line-height: 50px;
@@ -127,6 +127,10 @@ footer a{
 .secondary-text span{
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.secondary-text p{
+    font-size: 36px;
 }
 
 .stat-img{
@@ -196,13 +200,17 @@ footer a{
 }
 
 .info-4{
-    width: 575px;
-    font-size: 35px;
+    width: 490px;
     color: var(--accent-lblue);
     font-weight: 700;
     line-height: 50px;
     margin: 300px;
+    margin: 400px 300px;
     height: 250px;
+}
+
+.info-4 p{
+    font-size: 35px;
 }
 
 .info-4 p span:first-of-type{
