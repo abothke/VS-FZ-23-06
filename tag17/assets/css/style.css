@@ -6,7 +6,9 @@
 :root{
     font-size: 16px;
     --main-accent: rgba(223, 170, 91, 1);
+    --main-accent-opaque: rgba(223, 170, 91, 0.5);
     --second-accent: rgba(149, 117, 84, 1);
+    --secon-accent-opaque: rgba(149, 117, 84, 0.5);
 }
 
 *{
@@ -118,6 +120,13 @@ nav a:hover{
     color: var(--main-accent);
 }
 /* Styling Main */
+/* ausblenden des Burgermenu auf Desktop */
+.menu-items{
+    display: none;
+}
+.burgermenu{
+    display: none;
+}
 /* Hero */
 .hero{
     background: url(../img/hero_image.png) center/cover no-repeat;

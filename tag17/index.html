@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/mobile.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Welcome to Bon Hotels Nigeria</title>
     </head>
     <body>
@@ -17,6 +19,18 @@
                 <li><a href="">Contact Us</a></li>
                 <li><a href=""><img src="./assets/img/bi_search.png" alt=""></a></li>
             </ul>
+            <div class="burgermenu">
+                <a href="javascript:void(0);" class="icon" onclick="burgermenu()">
+                    <i class="fa fa-bars"></i>
+                <div id="menu-items">
+                  <a href="#hotel">Our Hotel</a>
+                  <a href="#rooms">Rooms & Rates</a>
+                  <a href="#facilities">Facilities</a>
+                  <a href="#contactus">Contact Us</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                </a>
+              </div>
         </nav>
     </header>
     <main>
@@ -102,5 +116,15 @@
             <a href="" class="button big">Subscribe Now</a>
         </div>
     </footer>
+    <script>
+        function burgermenu() {
+  var x = document.getElementById("menu-items");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    </script>
     </body>
     </html>
