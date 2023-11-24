@@ -13,5 +13,285 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--second-accent);
     font-family: 'Ubuntu';
+    font-weight: 500;
+}
+
+/* Styling für Typographie der Seite*/
+a{
+    text-decoration: none;
+}
+li{
+    font-size: 1.5em;
+    list-style: none;
+}
+
+h1{
+    font-size: 5em;
+    color: white;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 2.5em;
+    color: white;
+}
+
+h4{
+    font-size: 2em;
+    color: white;
+}
+
+p{
+    font-size: 1.5em;
+    color: white;
+}
+
+input{
+    height: 75px;
+    border-radius: 10px;
+    text-indent: 20px;
+    font-size: 1.5em;
+}
+
+input placeholder{
+    margin: 20px;
+}
+
+/* Button Styling */
+.button {
+	background-color:var(--main-accent);
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	text-decoration:none;
+}
+
+.button:hover {
+	background-color: var(--second-accent);
+}
+
+.button:active {
+	position:relative;
+	top:2px;
+}
+
+.big{
+	font-size:24px;
+	padding:25px 150px;
+}
+
+.small{
+    font-size:24px;
+	padding:25px 50px;
+}
+
+/* Styling für den Header */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+header a img{
+margin-top: 50px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+/* Styling Main */
+/* Hero */
+.hero{
+    background: url(../img/hero_image.png) center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 80vh;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+/* Facilities */
+.facilities{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.opt-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.facility-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row:  1 / 2;
+    gap: 20px;
+}
+
+.facility-options p{
+    color: var(--second-accent);
+}
+
+.kitchen{
+    grid-column: 1 / 2;
+}
+
+.pool{
+    grid-column: 2 / 3;
+}
+
+.wifi{
+    grid-column: 3 / 4;
+}
+
+.gym{
+    grid-column: 4 / 5;
+}
+
+.taxi{
+    grid-column: 5 / 6;
+}
+/* Rooms & Rates */
+.rooms{
+    text-align: center;
+}
+
+.rooms h2{
+    margin: 50px 0px;
+}
+
+.room-rates{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin: 50px;
+}
+
+.room-grid{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    gap: 25px;
+}
+
+.std-twin{
+    background: url(../img/standard_twin_room.png) center/cover no-repeat;
+    grid-column: 1 / 2;
+    grid-row:  1 / 2;
+}
+
+.std{
+    background: url(../img/standard_room.png) center/cover no-repeat;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.std-view{
+    background: url(../img/standard_view_room.png) center/cover no-repeat;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.deluxe{
+    background: url(../img/deluxe_room.png) center/cover no-repeat;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+/* CTA - Get a room already! */
+.cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+footer{
+    background-color: #111;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 50px;
+}
+
+.footer{
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+    padding: 50px 0px;
+    height: 450px;
+}
+
+.footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 40px;
+    height: 100%;
+}
+
+.footer a{
+    color: white;
+}
+
+.company{
+    grid-column: 1 / 2;
+    justify-content: space-evenly;
+}
+
+.company img{
+    height: 125px;
+    width: 150px;
+}
+
+.info{
+    grid-column: 2 / 3;
+}
+
+.newsletter{
+    grid-column: 3 / 4;
+    gap: 25px;
+    width: 75%;
+    justify-content: center;
+}
+
+.newsletter .button{
+    padding: 25px 170px;
 }
