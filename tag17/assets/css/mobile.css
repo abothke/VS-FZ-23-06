@@ -5,6 +5,12 @@
 }
 .burgermenu{
     display: block;
+    position: relative;
+}
+
+.bmenu{
+    position: absolute;
+    left: 50%;
 }
 .menu-items {
     overflow: hidden;
