@@ -1,196 +1,200 @@
 @media screen and (max-width: 480px) {
+    :root {
+        font-size: 8px;
+    }
 
-:root{
-    font-size: 8px;
-}
-/* Button-Styling für Mobile */
-.button {
-	background-color:var(--main-accent-opaque);
-	border-radius:5px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	text-decoration:none;
-    white-space: nowrap;
-}
+    /* Button-Styling für Mobile */
+    .button {
+        background-color: var(--main-accent-opaque);
+        border-radius: 5px;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        text-decoration: none;
+        white-space: nowrap;
+    }
 
-.small{
-    font-size:4em;
-	padding:10px 15px;
-}
+    .small {
+        font-size: 4em;
+        padding: 10px 15px;
+    }
 
-.big{
-	font-size:24px;
-	padding:25px 75px;
-}
+    .big {
+        font-size: 24px;
+        padding: 25px 75px;
+    }
 
-/* Input-Größe für Mobile angepasst */
+    /* Input-Größe für Mobile angepasst */
 
-input{
-    width: 80vw;
-}
+    input {
+        width: 80vw;
+    }
 
-/* Burgermenu */
+    /* Burgermenu */
 
-.burgermenu{
-    display: block;
-    position: relative;
-}
+    .burgermenu {
+        display: block;
+        position: relative;
+    }
 
-.bmenu{
-    position: absolute;
-    left: 50%;
-}
-.menu-items {
-    overflow: hidden;
-    position: relative;
-}
+    .bmenu {
+        position: absolute;
+        left: 50%;
+    }
 
-.burgermenu #menu-items {
-    display: none;
-}
+    .menu-items {
+        overflow: hidden;
+        position: relative;
+    }
 
-.burgermenu a {
-    color: var(--main-accent);
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-}
+    .burgermenu #menu-items {
+        display: none;
+    }
 
-.burgermenu a.icon {
-    display: block;
-    right: 0;
-    top: 0;
-  }
+    .burgermenu a {
+        color: var(--main-accent);
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
 
-/* Reguläres Menu ausblenden in der Mobile-Version */
+    .burgermenu a.icon {
+        display: block;
+        right: 0;
+        top: 0;
+    }
 
-nav ul li{
-    display: none;
-}
+    /* Reguläres Menu ausblenden in der Mobile-Version */
 
-/* Header */
+    nav ul li {
+        display: none;
+    }
 
-header {
-    gap: 25px;
-    margin-bottom: 25px;
-}
-header ul {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: space-evenly;
-    align-items: flex-end;
-}
+    /* Header */
 
-/* Main */
+    header {
+        gap: 25px;
+        margin-bottom: 25px;
+    }
 
-.hero{
-    text-align: center;
-}
-.hero-text h1{
-    font-size: 3.5em;
-}
+    header ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
 
-.opt-grid{
-    gap: 10px;
-    margin: 10px;
-}
+    /* Main */
 
-.rooms{
-    width: 90vw;
-    text-align: center;
-}
+    .hero {
+        text-align: center;
+    }
 
-.room-grid {
-    display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    height: 200px;
-    width: 45vw;
-    justify-content: flex-end;
-    align-items: center;
-    padding-bottom: 50px;
-    margin: 5px;
-}
+    .hero-text h1 {
+        font-size: 3.5em;
+    }
 
-.room-rates {
-    gap: 20px;
-    margin: 0px;
-    font-size: 0.8em;
-}
+    .opt-grid {
+        gap: 10px;
+        margin: 10px;
+    }
 
-.room-grid{
-    padding-bottom: 0px;
-    gap: 20px;
-}
+    .rooms {
+        width: 90vw;
+        text-align: center;
+    }
 
-.cta{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
-}
+    .room-grid {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        height: 200px;
+        width: 45vw;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 50px;
+        margin: 5px;
+    }
 
-/* Footer */
+    .room-rates {
+        gap: 20px;
+        margin: 0px;
+        font-size: 0.8em;
+    }
 
-footer{
-    background-color: #111;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
-}
+    .room-grid {
+        padding-bottom: 0px;
+        gap: 20px;
+    }
 
-.fa {
-    text-align: center;
-}
-.footer{
-    padding: 10px 0px;
-    height: 160px;
-    gap: 0px;
-    margin: 0 auto;
-    align-items: center;
-}
+    .cta {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
 
-.footer ul{
-    gap: 20px;
-    height: 250px;
-    width: 100px;
-}
+    /* Footer */
 
-.company{
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
-    margin-top: 30px;
-    text-align: center;
-}
-.company img{
-    height: 62.5px;
-    width: 75px;
-}
+    footer {
+        background-color: #111;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+    }
 
-.info{
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    flex-wrap: nowrap;
-    width: 80vw;
-    white-space: nowrap;
-}
+    .fa {
+        text-align: center;
+    }
 
-.newsletter{
-    grid-column: 1 / 3;
-    grid-row: 3 / 4;
-    align-items: center;
-    width: auto;
-    height: 200px;
-    text-align: center;
-    gap: 20px;
-}
+    .footer {
+        padding: 10px 0px;
+        height: 160px;
+        gap: 0px;
+        margin: 0 auto;
+        align-items: center;
+    }
 
-.newsletter .button{
-    padding: 15px 75px;
-}
+    .footer ul {
+        gap: 20px;
+        height: 250px;
+        width: 100px;
+    }
 
+    .company {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .company img {
+        height: 62.5px;
+        width: 75px;
+    }
+
+    .info {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        flex-wrap: nowrap;
+        width: 80vw;
+        white-space: nowrap;
+    }
+
+    .newsletter {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+        align-items: center;
+        width: auto;
+        height: 200px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .newsletter .button {
+        padding: 15px 75px;
+    }
 }

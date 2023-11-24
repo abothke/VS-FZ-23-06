@@ -1,14 +1,16 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="./assets/css/mobile.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Welcome to Bon Hotels Nigeria</title>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Welcome to Bon Hotels Nigeria</title>
+</head>
+
+<body>
     <header>
         <a href=""><img src="./assets/img/logo_header.png" alt=""></a>
         <nav>
@@ -21,71 +23,69 @@
             </ul>
             <div class="burgermenu">
                 <a href="javascript:void(0);" class="icon" onclick="burgermenu()">
-                    <i class="fa fa-bars bmenu"></i>
-                <div id="menu-items">
-                  <a href="#hotel">Our Hotel</a>
-                  <a href="#rooms">Rooms & Rates</a>
-                  <a href="#facilities">Facilities</a>
-                  <a href="#contactus">Contact Us</a>
-                </div>
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                </a>
-              </div>
+                    <i class="fa fa-bars bmenu"></i></a>
+                    <div id="menu-items">
+                        <a href="#hotel">Our Hotel</a>
+                        <a href="#rooms">Rooms & Rates</a>
+                        <a href="#facilities">Facilities</a>
+                        <a href="#contactus">Contact Us</a>
+                    </div>
+            </div>
         </nav>
     </header>
     <main>
         <section class="hero">
             <div class="hero-text">
-            <h1>WELCOME TO BON HOTEL</h1>
-            <p>Good people. Good thinking. Good feeling.</p>
-            <a href="" class="button big">EXPLORE</a>
-        </div>
+                <h1>WELCOME TO BON HOTEL</h1>
+                <p>Good people. Good thinking. Good feeling.</p>
+                <a href="" class="button big">EXPLORE</a>
+            </div>
         </section>
         <section class="facilities">
             <h2>Facilities</h2>
             <div class="opt-grid">
-            <div class="facility-options kitchen">
-                <img src="./assets/img/icon_kitchen.png" alt="">
-                <p>Kitchen </p>
+                <div class="facility-options kitchen">
+                    <img src="./assets/img/icon_kitchen.png" alt="">
+                    <p>Kitchen </p>
+                </div>
+                <div class="facility-options pool">
+                    <img src="./assets/img/icon_pool.png" alt="">
+                    <p>Pool</p>
+                </div>
+                <div class="facility-options wifi">
+                    <img src="./assets/img/icon_wifi.png" alt="">
+                    <p>Wifi</p>
+                </div>
+                <div class="facility-options gym">
+                    <img src="./assets/img/icon_fitness.png" alt="">
+                    <p>Gym</p>
+                </div>
+                <div class="facility-options taxi">
+                    <img src="./assets/img/icon_taxi.png" alt="">
+                    <p>Taxi</p>
+                </div>
             </div>
-            <div class="facility-options pool">
-                <img src="./assets/img/icon_pool.png" alt="">
-                <p>Pool</p>
-            </div>
-            <div class="facility-options wifi">
-                <img src="./assets/img/icon_wifi.png" alt="">
-                <p>Wifi</p>
-            </div>
-            <div class="facility-options gym">
-                <img src="./assets/img/icon_fitness.png" alt="">
-                <p>Gym</p>
-            </div>
-            <div class="facility-options taxi">
-                <img src="./assets/img/icon_taxi.png" alt="">
-                <p>Taxi</p>
-            </div>
-        </div>
         </section>
         <section class="rooms">
             <h2>Rooms & Rates</h2>
             <div class="room-rates">
-            <div class="room-grid std-twin">
-                <h3>Standard Twin Room</h3>
-                <a href="" class="button small">Check Rates</a>
+                <div class="room-grid std-twin">
+                    <h3>Standard Twin Room</h3>
+                    <a href="" class="button small">Check Rates</a>
+                </div>
+                <div class="room-grid std">
+                    <h3>Standard Room</h3>
+                    <a href="" class="button small">Check Rates</a>
+                </div>
+                <div class="room-grid std-view">
+                    <h3>Standard View Room</h3>
+                    <a href="" class="button small">Check Rates</a>
+                </div>
+                <div class="room-grid deluxe">
+                    <h3>Deluxe Room</h3>
+                    <a href="" class="button small">Check Rates</a>
+                </div>
             </div>
-            <div class="room-grid std">
-                <h3>Standard Room</h3>
-                <a href="" class="button small">Check Rates</a>
-            </div>
-            <div class="room-grid std-view">
-                <h3>Standard View Room</h3>
-                <a href="" class="button small">Check Rates</a>
-            </div>
-            <div class="room-grid deluxe">
-                <h3>Deluxe Room</h3>
-                <a href="" class="button small">Check Rates</a>
-            </div>
-        </div>
         </section>
         <section class="cta">
             <h2>Get a room already!</h2>
@@ -118,13 +118,14 @@
     </footer>
     <script>
         function burgermenu() {
-  var x = document.getElementById("menu-items");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+            var x = document.getElementById("menu-items");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
     </script>
-    </body>
-    </html>
+</body>
+
+</html>

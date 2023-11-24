@@ -3,7 +3,7 @@
     src: url(../fonts/Ubuntu-Regular.ttf);
 }
 
-:root{
+:root {
     font-size: 16px;
     --main-accent: rgba(223, 170, 91, 1);
     --main-accent-opaque: rgba(223, 170, 91, 0.5);
@@ -11,7 +11,7 @@
     --secon-accent-opaque: rgba(149, 117, 84, 0.5);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,82 +21,83 @@
 }
 
 /* Styling für Typographie der Seite*/
-a{
+a {
     text-decoration: none;
 }
-li{
+
+li {
     font-size: 1.5em;
     list-style: none;
 }
 
-h1{
+h1 {
     font-size: 5em;
     color: white;
 }
 
-h2{
+h2 {
     font-size: 3em;
 }
 
-h3{
+h3 {
     font-size: 2.5em;
     color: white;
 }
 
-h4{
+h4 {
     font-size: 2em;
     color: white;
 }
 
-p{
+p {
     font-size: 1.5em;
     color: white;
 }
 
-input{
+input {
     height: 75px;
     border-radius: 10px;
     text-indent: 20px;
     font-size: 1.5em;
 }
 
-input placeholder{
+input placeholder {
     margin: 20px;
 }
 
 /* Button Styling */
 .button {
-	background-color:var(--main-accent);
-	border-radius:10px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	text-decoration:none;
+    background-color: var(--main-accent);
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    text-decoration: none;
 }
 
 .button:hover {
-	background-color: var(--second-accent);
+    background-color: var(--second-accent);
 }
 
 .button:active {
-	position:relative;
-	top:2px;
+    position: relative;
+    top: 2px;
 }
 
-.big{
-	font-size:24px;
-	padding:25px 150px;
+.big {
+    font-size: 24px;
+    padding: 25px 150px;
 }
 
-.small{
-    font-size:24px;
-	padding:25px 50px;
+.small {
+    font-size: 24px;
+    padding: 25px 50px;
 }
 
 /* Styling für den Header */
 
-header{
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,11 +105,11 @@ header{
     margin-bottom: 100px;
 }
 
-header a img{
-margin-top: 50px;
+header a img {
+    margin-top: 50px;
 }
 
-header ul{
+header ul {
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -116,19 +117,22 @@ header ul{
     align-items: flex-end;
 }
 
-nav a:hover{
+nav a:hover {
     color: var(--main-accent);
 }
+
 /* Styling Main */
 /* ausblenden des Burgermenu auf Desktop */
-.menu-items{
+.menu-items {
     display: none;
 }
-.burgermenu{
+
+.burgermenu {
     display: none;
 }
+
 /* Hero */
-.hero{
+.hero {
     background: url(../img/hero_image.png) center/cover no-repeat;
     display: flex;
     flex-direction: column;
@@ -137,20 +141,21 @@ nav a:hover{
     height: 80vh;
 }
 
-.hero-text{
+.hero-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
     margin-bottom: 100px;
 }
+
 /* Facilities */
-.facilities{
+.facilities {
     text-align: center;
     margin-top: 25px;
 }
 
-.opt-grid{
+.opt-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
@@ -160,47 +165,48 @@ nav a:hover{
     margin-bottom: 200px;
 }
 
-.facility-options{
+.facility-options {
     display: flex;
     flex-direction: column;
     align-items: center;
-    grid-row:  1 / 2;
+    grid-row: 1 / 2;
     gap: 20px;
 }
 
-.facility-options p{
+.facility-options p {
     color: var(--second-accent);
 }
 
-.kitchen{
+.kitchen {
     grid-column: 1 / 2;
 }
 
-.pool{
+.pool {
     grid-column: 2 / 3;
 }
 
-.wifi{
+.wifi {
     grid-column: 3 / 4;
 }
 
-.gym{
+.gym {
     grid-column: 4 / 5;
 }
 
-.taxi{
+.taxi {
     grid-column: 5 / 6;
 }
+
 /* Rooms & Rates */
-.rooms{
+.rooms {
     text-align: center;
 }
 
-.rooms h2{
+.rooms h2 {
     margin: 50px 0px;
 }
 
-.room-rates{
+.room-rates {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -208,7 +214,7 @@ nav a:hover{
     margin: 50px;
 }
 
-.room-grid{
+.room-grid {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -221,31 +227,32 @@ nav a:hover{
     gap: 25px;
 }
 
-.std-twin{
+.std-twin {
     background: url(../img/standard_twin_room.png) center/cover no-repeat;
     grid-column: 1 / 2;
-    grid-row:  1 / 2;
+    grid-row: 1 / 2;
 }
 
-.std{
+.std {
     background: url(../img/standard_room.png) center/cover no-repeat;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
 
-.std-view{
+.std-view {
     background: url(../img/standard_view_room.png) center/cover no-repeat;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 }
 
-.deluxe{
+.deluxe {
     background: url(../img/deluxe_room.png) center/cover no-repeat;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
+
 /* CTA - Get a room already! */
-.cta{
+.cta {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -254,7 +261,7 @@ nav a:hover{
     margin-bottom: 150px;
 }
 
-footer{
+footer {
     background-color: #111;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -262,7 +269,7 @@ footer{
     gap: 50px;
 }
 
-.footer{
+.footer {
     grid-row: 1 / 2;
     display: flex;
     flex-direction: column;
@@ -271,7 +278,7 @@ footer{
     height: 450px;
 }
 
-.footer ul{
+.footer ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -280,31 +287,31 @@ footer{
     height: 100%;
 }
 
-.footer a{
+.footer a {
     color: white;
 }
 
-.company{
+.company {
     grid-column: 1 / 2;
     justify-content: space-evenly;
 }
 
-.company img{
+.company img {
     height: 125px;
     width: 150px;
 }
 
-.info{
+.info {
     grid-column: 2 / 3;
 }
 
-.newsletter{
+.newsletter {
     grid-column: 3 / 4;
     gap: 25px;
     width: 75%;
     justify-content: center;
 }
 
-.newsletter .button{
+.newsletter .button {
     padding: 25px 170px;
 }
