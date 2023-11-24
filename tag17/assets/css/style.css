@@ -113,6 +113,10 @@ header ul{
     justify-content: space-evenly;
     align-items: flex-end;
 }
+
+nav a:hover{
+    color: var(--main-accent);
+}
 /* Styling Main */
 /* Hero */
 .hero{
