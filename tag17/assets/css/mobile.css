@@ -3,6 +3,36 @@
 :root{
     font-size: 8px;
 }
+/* Button-Styling für Mobile */
+.button {
+	background-color:var(--main-accent-opaque);
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	text-decoration:none;
+    white-space: nowrap;
+}
+
+.small{
+    font-size:4em;
+	padding:10px 15px;
+}
+
+.big{
+	font-size:24px;
+	padding:25px 75px;
+}
+
+/* Input-Größe für Mobile angepasst */
+
+input{
+    width: 80vw;
+}
+
+/* Burgermenu */
+
 .burgermenu{
     display: block;
     position: relative;
@@ -35,10 +65,13 @@
     top: 0;
   }
 
+/* Reguläres Menu ausblenden in der Mobile-Version */
 
 nav ul li{
     display: none;
 }
+
+/* Header */
 
 header {
     gap: 25px;
@@ -52,6 +85,8 @@ header ul {
     align-items: flex-end;
 }
 
+/* Main */
+
 .hero{
     text-align: center;
 }
@@ -63,10 +98,12 @@ header ul {
     gap: 10px;
     margin: 10px;
 }
+
 .rooms{
     width: 90vw;
     text-align: center;
 }
+
 .room-grid {
     display: flex;
     flex-direction: column;
@@ -77,27 +114,6 @@ header ul {
     align-items: center;
     padding-bottom: 50px;
     margin: 5px;
-}
-
-.button {
-	background-color:var(--main-accent-opaque);
-	border-radius:5px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	text-decoration:none;
-    white-space: nowrap;
-}
-
-.small{
-    font-size:4em;
-	padding:10px 15px;
-}
-
-.big{
-	font-size:24px;
-	padding:25px 75px;
 }
 
 .room-rates {
@@ -116,6 +132,8 @@ header ul {
     margin-bottom: 100px;
     text-align: center;
 }
+
+/* Footer */
 
 footer{
     background-color: #111;
@@ -173,10 +191,6 @@ footer{
 
 .newsletter .button{
     padding: 15px 75px;
-}
-
-input{
-    width: 80vw;
 }
 
 }
