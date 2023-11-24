@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+:root{
+    font-size: 16px;
+    --main-accent: rgba(223, 170, 91, 1);
+    --second-accent: rgba(149, 117, 84, 1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
