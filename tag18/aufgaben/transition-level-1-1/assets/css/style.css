@@ -1,0 +1,15 @@
+section{
+    width: 1000px;
+    height: 100px;
+    background-color: lightgray;
+}
+section div{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    transition: width 2s;
+}
+
+section div:hover{
+    width: 1000px;
+}
