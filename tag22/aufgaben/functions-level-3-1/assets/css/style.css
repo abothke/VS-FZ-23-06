@@ -1,0 +1,32 @@
+body{
+    flex-direction: column;
+}
+body, div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+[class^='superball']{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: solid 1px black;
+}
+
+.superball-1{
+    background: linear-gradient(45deg, #329C5E 50%, #7A0A6A 50%);
+}
+
+.superball-2{
+    background: linear-gradient(45deg, #504C7D 50%, #DEB74C 50%);
+}
+
+.superball-3{
+    background: linear-gradient(45deg, #020025 50%, #CF6B0B 50%);
+}
+
+.superball-4{
+    background: linear-gradient(45deg, #050353 50%, #43D3FE 50%);
+}
