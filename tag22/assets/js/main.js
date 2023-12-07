@@ -138,8 +138,3 @@ erstesKind.innerHTML = "ich bin stärker";
 
 let zweitesKind = document.getElementById("mein-zweites-kind");
 zweitesKind.innerHTML = "Hallo Papa Farid"
-
-
-while (0 === 0) {
-    let sum = 0 + 0;
-}
