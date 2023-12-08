@@ -1,0 +1,11 @@
+.headline{
+    font-family: monospace;
+    color: red;
+    font-size: 60px;
+}
+
+.bucket-list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font-size: 30px;
+}
