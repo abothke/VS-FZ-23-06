@@ -7,6 +7,40 @@
         <title>tag23</title>
     </head>
     <body>
+        <header>
+            <nav>
+            <div>
+                <a href="#home"></a>
+                <a href="#"></a>
+            </div>
+            <img onclick="getDark()" src="./assets/img/darkLight.png" alt="icon">
+            </nav>
+        </header>
+        <main>
+            <section>
+                <form onsubmit="getInputValue(); return false">
+                    <label for="textId">Name</label>
+                    <input type="text" id="textId" class="name">
+                    <br />
+                    <label for="num">Age</label>
+                    <input type="number" id="num" class="num">
+                    <label for="range">Range</label>
+                    <input type="range" max="50" min="0" id="range" class="range">
+                    <br />
+                    <label for="checkbox">Happy?</label>
+                    <input type="checkbox" class="checkbox" id="checkbox">
+                    <label for="bday">Bday</label>
+                    <input type="date" id="bday" class="bday">
+                    <br />
+                    <input type="submit">
+                </form>
+                <p class="output"></p>
+            </section>
+            <section>
+                <h2 onclick="addClass()"class="myAdd">ADD Class</h2>
+                <h3 onclick="removeClass()"class="myRemove">REMOVE Class</h3>
+            </section>
+        </main>
     <script src="./assets/js/main.js"></script>
     </body>
     </html>
