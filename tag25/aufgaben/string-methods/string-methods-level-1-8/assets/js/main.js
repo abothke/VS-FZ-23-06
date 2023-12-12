@@ -21,8 +21,6 @@ let exampleThree =
   textSchool.slice(14, 16) +
   textSchool.charAt(16).toUpperCase() +
   textSchool.slice(17, 22);
-// let exampleThree = textSchool.charAt(0).toUpperCase();
-
 document.write(textLowerCase + "</br>");
 document.write(textUpperCase + "</br>");
 document.write(exampleOne + "</br>");

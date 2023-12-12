@@ -1,6 +1,5 @@
 function checkPass() {
   let passLength = document.querySelector("#password").value.length;
-  console.log(passLength);
   let pwSecure =
     passLength > 8
       ? "Das Passwort ist sicher."

@@ -2,11 +2,9 @@ const text1 = "Sam is going to codingschool";
 const text2 = "Susi";
 const text3 = "and";
 const text4 = "to the movie theater";
-
 samText = text1.replace("coding", "");
 theaterText = samText.replace("school", "the movie theater");
 gymText = samText.replace("school", "the gym");
-
 exampleOne = `${samText} ${text3} ${text4}`;
 exampleTwo = text1.slice(0, 13) + text4;
 exampleThree = `${text2} ${text3} ${gymText.replace(

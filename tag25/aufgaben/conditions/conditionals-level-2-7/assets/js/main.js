@@ -1,7 +1,6 @@
 function showtxt() {
   let listVal = document.querySelector("#mylist").value;
   let pDimension = listVal;
-  console.log(listVal);
   switch (listVal) {
     case "0":
       pDimension =
@@ -20,6 +19,5 @@ function showtxt() {
       pDimension = "<b>Extra große Größe</b>";
       break;
   }
-
   document.querySelector("#masse").innerHTML = pDimension;
 }

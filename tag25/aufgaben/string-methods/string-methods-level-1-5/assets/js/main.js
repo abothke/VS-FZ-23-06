@@ -1,5 +1,4 @@
 const A = "Susi is going to codingschool";
-
 let exampleOne = A.substring(0, 4);
 let exampleTwo = A.substring(5, 8);
 let exampleThree = A.substring(A.length - 6);

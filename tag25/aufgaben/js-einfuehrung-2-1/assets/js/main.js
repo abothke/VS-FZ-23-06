@@ -8,10 +8,8 @@ function sendText() {
   } else {
     document.querySelector("span").innerText = "";
   }
-
   if (textInput == "") {
   } else {
-    console.log(textInput);
     document.querySelector("p").innerHTML = textInput;
   }
 }
