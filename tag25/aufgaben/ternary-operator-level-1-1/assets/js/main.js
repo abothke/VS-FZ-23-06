@@ -1,7 +1,7 @@
 function checkAge() {
   let age = document.querySelector("#age").value;
-  console.log(age);
-  let underageCheck = age >= 18 ? "Volljährig" : "Minderjährig";
-  console.log(underageCheck);
+  let underageCheck = age >= 18 
+  ? "Volljährig" 
+  : "Minderjährig";
   document.querySelector("p").innerHTML = underageCheck;
 }
