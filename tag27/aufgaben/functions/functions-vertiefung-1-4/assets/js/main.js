@@ -1,8 +1,9 @@
-function hero(heroName, heroPower, heroEnemy) {
-  console.log(`Mein Lieblingsheld ist: ${heroName}`);
-  console.log(`Er/Sie hat die Fähigkeit: ${heroPower}`);
-  console.log(`Sein/Ihr größter Gegner ist: ${heroEnemy}`);
-}
+const hero = (heroName, heroPower, heroEnemy) => {
+  let name = `Mein Lieblingsheld ist: ${heroName}`;
+  let power = `Er/Sie hat die Fähigkeit: ${heroPower}`;
+  let enemy = `Sein/Ihr größter Gegner ist: ${heroEnemy}`;
+  console.log(name, power, enemy);
+};
 
 hero(
   "Iron Man",
