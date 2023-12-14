@@ -10,6 +10,8 @@ let exampleTwo =
   textLowerCase.slice(0, 4) +
   textUpperCase.slice(4, 16) +
   textLowerCase.substring(16);
+const text = "Sam is going to codingschool";
+let textSchool = text.replace("coding", "");
 let exampleThree =
   textSchool.charAt(0).toUpperCase() +
   textSchool.slice(1, 4) +
