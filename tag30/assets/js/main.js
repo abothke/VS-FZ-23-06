@@ -8,7 +8,10 @@ console.log(obstsalat);
 // sort - Sortiert die Elemente eines Arrays.
 
 let numbers = [4, 2, 5, 1, 3, 22, 55, 44];
-numbers.sort();
+
+numbers.sort(function (a, b) {
+  return a - b;
+});
 console.log(numbers);
 
 // splice - Fügt und/oder entfernt Elemente an/aus einem Array.
@@ -62,3 +65,20 @@ const mapForEach = (num2) => {
 };
 
 mapForEach(num2);
+
+let num3 = [1, 2, 3, 4, 5];
+
+const evenOdd = (pizza) => {
+  let double = pizza.map((num) => num * 3);
+  console.log(double);
+
+  double.forEach((doubleNum) => {
+    console.log("verdoppelte Nummer: " + doubleNum);
+    if (doubleNum % 2 === 0) {
+      console.log("gerade");
+    } else {
+      console.log("ungerade");
+    }
+  });
+};
+evenOdd(num3);
