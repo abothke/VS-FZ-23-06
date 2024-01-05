@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.itemDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.imgDiv figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+img{
+    width: 15rem;
+    height: 10rem;
+    height: 2;
+    border-radius: 5px;
+}
+
+figcaption{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+button{
+    background-color: fuchsia;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.loadBtn{
+    margin: 20px;
+}
