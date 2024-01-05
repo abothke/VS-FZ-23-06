@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    background-color: #202124;
+    font-family: 'Lobster Two', sans-serif;
 }
+
 
 a{
     text-decoration: none;
     color: white;
     font-weight: 600;
+    background-color: fuchsia;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+    margin: 20px;
+
 }
 .itemDiv{
     display: flex;
@@ -26,7 +39,6 @@ a{
     justify-content: center;
     flex-direction: column;
     gap: 10px;
-    
 }
 
 img{
@@ -35,10 +47,13 @@ img{
     height: 2;
     border-radius: 5px;
 }
-
+img:hover{
+    transform: scale(1.1);
+    transition: all  ease-in-out;
+}
 figcaption{
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
 }
 
 button{
@@ -50,6 +65,7 @@ button{
     color: white;
     cursor: pointer;
 }
+
 
 .loadBtn{
     margin: 20px;
