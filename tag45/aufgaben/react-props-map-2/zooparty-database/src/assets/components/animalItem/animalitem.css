@@ -1,0 +1,25 @@
+#animal-item{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    border: #353535 1px solid;
+    border-radius: 10px;
+}
+
+#info-list-animal{
+    background: #262430;
+    height: 200px;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#general-info-animal{
+}
+
+#emoji{
+    font-size: 4em;
+}
