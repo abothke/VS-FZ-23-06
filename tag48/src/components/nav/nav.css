@@ -1,0 +1,11 @@
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
