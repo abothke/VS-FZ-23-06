@@ -29,7 +29,7 @@ const sumOfValues = (array) => {
 }
 
 const randomOfTwo = (a, b) => {
-    return Math.ceil(Math.random() * b); // Gibt eine zufällige Zahl zwischen a und b zurück
+    return Math.ceil(Math.random(a) * b); // Gibt eine zufällige Zahl zwischen a und b zurück
 }
 
 const firstLetterUppercase = (string) => {
