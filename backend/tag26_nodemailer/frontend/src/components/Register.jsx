@@ -1,18 +1,21 @@
 import { useRef } from "react";
 
-const LoginForm = ({ postLogin }) => {
+const RegisterForm = ({ postRegistration }) => {
   const nameRef = useRef();
   const passwordRef = useRef();
+  const emailRef = useRef();
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    postLogin(nameRef.current.value, passwordRef.current.value);
+    const name = nameRef.current.value;
+    const password = passwordRef.current.value;
+    const email = emailRef.current.value;
+    postRegistration(email, name, password);
   };
-  
   return (
     <form onSubmit={handleSubmit}>
       <input ref={nameRef} type="text" name="username" placeholder="Username" />
-      <input
+      <input ref={emailRef} type="email" name="email" placeholder="Email" />      <input
         ref={passwordRef}
         type="password"
         name="password"
@@ -23,4 +26,4 @@ const LoginForm = ({ postLogin }) => {
   );
 };
 
-export default LoginForm;
+export default RegisterForm;

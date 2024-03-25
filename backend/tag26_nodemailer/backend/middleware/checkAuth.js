@@ -5,6 +5,7 @@ export const checkAuth = async (req, res, next) => {
   // check if authorization is present, abort otherwise
   if (!req.headers.authorization) {
     res.status(401).send("Please Authenticate");
+    console.log(req.body);
     return;
   }
   const [authType, token] = req.headers.authorization.split(" ");
@@ -17,7 +18,7 @@ export const checkAuth = async (req, res, next) => {
   try {
     const result = jwt.verify(token, process.env.JWT_SECRET);
     // wir koennen das ergebnis in req order res schreiben um es nachfolgenden zur verfuegung stellen
-    req.user = result; 
+    req.user = result;
     next();
   } catch (err) {
     res.status(401).send("Your token is invalid");

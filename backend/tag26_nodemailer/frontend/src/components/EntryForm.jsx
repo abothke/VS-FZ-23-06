@@ -1,11 +1,14 @@
-import { useRef } from "react";
+import { useContext, useRef } from "react";
+import { mainContext } from "../context/mainProvider";
+
 
 const EntryForm = ({ postEntry }) => {
   const inputRef = useRef();
+  const { username } = useContext(mainContext);
   const handleSubmit = (event) => {
     event.preventDefault();
     const content = inputRef.current.value;
-    postEntry(content);
+    postEntry(content, username);
   };
   return (
     <form onSubmit={handleSubmit}>

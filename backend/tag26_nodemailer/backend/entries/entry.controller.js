@@ -4,17 +4,22 @@ import { checkAuth } from "../middleware/checkAuth.js";
 
 export const entryRouter = express.Router();
 
-entryRouter.use(express.json())
+entryRouter.use(express.json());
 
-entryRouter.get("/", checkAuth, async (req, res) => {
-  const entries = await Entry.find({ author: username });
+entryRouter.get("/:user", checkAuth, async (req, res) => {
+  console.dir(req.body);
+  const user = req.params.user;
+  const entries = await Entry.find({ author: user });
   res.json(entries);
 });
 
 entryRouter.post("/", async (req, res) => {
-console.dir(req.body)
+  console.dir(req.body);
   try {
-    const entry = await Entry.create({ content: req.body.content });
+    const entry = await Entry.create({
+      content: req.body.content,
+      author: req.body.author,
+    });
     res.json(entry);
   } catch (err) {
     console.error(err);
