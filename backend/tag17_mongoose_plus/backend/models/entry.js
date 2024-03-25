@@ -10,12 +10,10 @@ const entrySchema = new Schema({
     type: String,
     required: true,
   },
-  birds: [
-    {
-      type: mongoose.Types.ObjectId,
-      ref: "bird",
-    },
-  ],
+  bird: {
+    type: mongoose.Types.ObjectId,
+    ref: "Bird",
+  },
 });
 
 export const Entry = mongoose.model("entry", entrySchema);

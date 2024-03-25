@@ -1,10 +1,5 @@
 import mongoose, { Schema } from "mongoose";
 
-const foodSchema = new Schema({
-  name: { type: String, required: true },
-  caloricValue: { type: Number },
-});
-
 const birdSchema = new Schema({
   name: {
     type: String,
@@ -14,14 +9,16 @@ const birdSchema = new Schema({
     type: String,
     required: true,
   },
+  description: {
+    type: String,
+  },
   imageUrl: {
     type: String,
   },
-  wingspan: {
-    type: Number,
+  size: {
+    type: String,
   },
-  hobbies: [String],
-  food: [foodSchema],
+  food: { type: [String], default: () => [], required: true },
 });
 
-export const Bird = mongoose.model("bird", birdSchema);
+export const Bird = mongoose.model("Bird", birdSchema, "voegel");
